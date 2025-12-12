@@ -1,4 +1,4 @@
-# 🏰 Hogwarts Legacy on macOS — Complete Guide (Heroic + Wine)
+# Hogwarts Legacy on macOS — Complete Guide (Heroic + Wine)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Hogwarts%20Legacy-macOS%20Guide-6A5ACD?style=for-the-badge&logo=apple&logoColor=white" />
@@ -15,7 +15,7 @@
 
 ---
 
-# 📘 Table of Contents
+# Table of Contents
 
 * [Overview](#-overview)
 * [Tested Hardware](#-tested-hardware)
@@ -29,13 +29,13 @@
 
 ---
 
-# 📖 Overview
+# Overview
 
 Hogwarts Legacy does not officially support macOS, but with **Heroic Games Launcher**, **Wine**, and a few configuration tweaks, the game runs smoothly—even at **60 FPS on Ultra settings** on powerful Apple Silicon machines.
 
 ---
 
-# 💻 Tested Hardware
+# Tested Hardware
 
 This setup has been tested on a high‑end configuration:
 
@@ -49,7 +49,7 @@ This setup has been tested on a high‑end configuration:
 
 ---
 
-# ⚙️ Prerequisites
+# Prerequisites
 
 * macOS running on Apple Silicon (M1/M2/M3/M4)
 * Heroic Games Launcher
@@ -58,7 +58,7 @@ This setup has been tested on a high‑end configuration:
 
 ---
 
-# 🚀 Step-by-Step Installation
+# Step-by-Step Installation
 
 ### **1. Install Heroic Games Launcher**
 
@@ -98,7 +98,7 @@ If shaders fail to build the first time, close and relaunch.
 
 ---
 
-# ⚡ Performance Tips
+# Performance Tips
 
 * **Energy Mode:** Set to **High Power** (System Settings → Battery).
 * **Keep charging:** Apple Silicon boosts performance when plugged in.
@@ -107,7 +107,7 @@ If shaders fail to build the first time, close and relaunch.
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 ### **Gameplay (60 FPS Ultra)**
 
@@ -123,7 +123,7 @@ If shaders fail to build the first time, close and relaunch.
 
 ---
 
-# 🐞 Known Issues & Fixes
+# Known Issues & Fixes
 
 ### **Shaders didn’t build on first launch**
 
@@ -137,7 +137,7 @@ If shaders fail to build the first time, close and relaunch.
 
 ---
 
-# ❓ FAQ
+# FAQ
 
 ### **Does this work on Intel Macs?**
 
